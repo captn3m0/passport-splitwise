@@ -1,6 +1,6 @@
 {
   "name": "passport-splitwise",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Passsport auth strategy for splitwise",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,13 @@
     "splitwise",
     "strategy"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/captn3m0/passport-splitwise"
+  },
   "author": "Ji Ho Koo <jihokoo@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "passport-oauth2": "~1.1.2"
+    "passport-oauth": "^1.0.0"
   }
 }
