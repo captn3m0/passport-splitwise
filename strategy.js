@@ -141,8 +141,6 @@ Strategy.prototype.userProfile = function(token, tokenSecret, params, done) {
     url = 'https://api.splitwise.com/v1/people/~:(' + fields + ')?format=json';
   }
   this._oauth.get(url, token, tokenSecret, function (err, body, res) {
-    console.log('token', token);
-  console.log('tokenSecret', tokenSecret);
     if (err) { return done(new InternalOAuthError('failed to fetch user profile', err)); }
     
     try {
